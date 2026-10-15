@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Contact | Srinivas Home Tuitions',
   description:
-    'Contact Srinivas Home Tuitions in Hyderabad, Hyderabad. Call 7997930423 or message us on WhatsApp to book a free demo class today.',
+    'Contact Srinivas Home Tuitions in Hyderabad, Hyderabad. Call 8897104332 or message us on WhatsApp to book a free demo class today.',
 }
 
 export default function ContactPage() {
