@@ -1,5 +1,5 @@
-import { ADDRESS, BUSINESS_NAME, EMAIL, EMAIL_HREF, LOCATION, NAV_LINKS, PHONE_DISPLAY, PHONE_TEL, WHATSAPP } from '@/lib/site'
-import { Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
+import { ADDRESS, BUSINESS_NAME, LOCATION, NAV_LINKS, PHONE_DISPLAY, PHONE_TEL, WHATSAPP } from '@/lib/site'
+import { MapPin, MessageCircle, Phone } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -100,17 +100,6 @@ export function SiteFooter() {
                     <MessageCircle className="size-4" />
                   </span>
                   WhatsApp Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href={EMAIL_HREF}
-                  className="flex items-center gap-3 text-sm text-primary-foreground/90 transition-colors hover:text-primary-foreground"
-                >
-                  <span className="flex size-9 items-center justify-center rounded-lg bg-primary-foreground/10">
-                    <Mail className="size-4" />
-                  </span>
-                  <span className="break-all">{EMAIL}</span>
                 </a>
               </li>
             </ul>

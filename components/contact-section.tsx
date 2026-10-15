@@ -2,16 +2,13 @@
 
 import { Reveal } from '@/components/reveal'
 import { Button } from '@/components/ui/button'
-import { ADDRESS, EMAIL, EMAIL_HREF, LOCATION, MAP_QUERY, PHONE_DISPLAY, PHONE_TEL, WHATSAPP } from '@/lib/site'
-import { CheckCircle2, Clock, Mail, MapPin, MessageCircle, Phone, Send } from 'lucide-react'
+import { ADDRESS, LOCATION, MAP_QUERY, PHONE_DISPLAY, PHONE_TEL, WHATSAPP } from '@/lib/site'
+import { CheckCircle2, MapPin, MessageCircle, Phone, Send } from 'lucide-react'
 import { useState } from 'react'
 
 const contactInfo = [
   { icon: Phone, label: 'Call Us', value: PHONE_DISPLAY, href: PHONE_TEL },
-  { icon: MessageCircle, label: 'WhatsApp', value: 'Message us anytime', href: WHATSAPP },
-  { icon: Mail, label: 'Email', value: EMAIL, href: EMAIL_HREF },
-  { icon: MapPin, label: 'Location', value: `${LOCATION}, Hyderabad`, href: '#map' },
-  { icon: Clock, label: 'Hours', value: 'Mon – Sun, 6 AM – 11 PM' },
+  { icon: MessageCircle, label: 'WhatsApp Us', value: PHONE_DISPLAY, href: WHATSAPP },
 ]
 
 export function ContactSection() {

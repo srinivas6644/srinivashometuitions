@@ -1,7 +1,7 @@
 import { Reveal } from '@/components/reveal'
 import { Button } from '@/components/ui/button'
-import { EMAIL, EMAIL_HREF, PHONE_DISPLAY, PHONE_TEL, WHATSAPP } from '@/lib/site'
-import { Mail, MessageCircle, Phone } from 'lucide-react'
+import { PHONE_DISPLAY, PHONE_TEL, WHATSAPP } from '@/lib/site'
+import { MessageCircle, Phone } from 'lucide-react'
 
 export function CtaBand() {
   return (
@@ -41,15 +41,6 @@ export function CtaBand() {
                 >
                   <MessageCircle className="size-5" />
                   WhatsApp Us
-                </Button>
-                <Button
-                  render={<a href={EMAIL_HREF} target="_blank" rel="noopener noreferrer" aria-label={`Email ${EMAIL}`} />}
-                  size="lg"
-                  variant="outline"
-                  className="h-12 gap-2 rounded-full border-2 border-primary-foreground/30 bg-transparent px-7 text-base font-semibold text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
-                >
-                  <Mail className="size-5" />
-                  Email Us
                 </Button>
               </div>
             </div>

@@ -34,7 +34,6 @@ const FIELD_LABELS: Record<string, string> = {
   fullName: 'Full Name',
   mobile: 'Mobile Number',
   whatsapp: 'WhatsApp Number',
-  email: 'Email',
   gender: 'Gender',
   qualification: 'Qualification',
   experience: 'Experience',
@@ -125,9 +124,6 @@ export function JoinTutorForm() {
         </Field>
         <Field label="WhatsApp Number" htmlFor="whatsapp">
           <input id="whatsapp" name="whatsapp" type="tel" required placeholder="10-digit WhatsApp number" className={fieldClass} />
-        </Field>
-        <Field label="Email" htmlFor="email">
-          <input id="email" name="email" type="email" required placeholder="you@example.com" className={fieldClass} />
         </Field>
         <Field label="Gender" htmlFor="gender">
           <select id="gender" name="gender" required defaultValue="" className={fieldClass}>
